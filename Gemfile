@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.4'
 gem 'rails',                    '~> 6.0.0'
 gem 'sqlite3',                  '~> 1.4'
-gem 'puma',                     '~> 3.11'
+gem 'puma',                     '~> 4.3'
 gem 'active_model_serializers', '~> 0.10.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
